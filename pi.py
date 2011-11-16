@@ -5,7 +5,7 @@ from math import pi
 from time import time
 
 # Assume that radius equals 1.
-num_of_points = 10000000
+num_of_points = 1000000
 
 in_a_circle = lambda point: 1 >= point[0]**2 + point[1]**2
 

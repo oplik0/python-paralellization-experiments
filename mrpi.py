@@ -6,7 +6,7 @@ from multiprocessing import Pool
 from time import time
 
 r = 1
-num_of_points = 10000000
+num_of_points = 1000000
 num_of_workers = 2
 real_number_of_points = num_of_points/num_of_workers*num_of_workers
 
